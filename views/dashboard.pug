@@ -1,0 +1,19 @@
+extends layout
+
+block layout-content
+  div.View.UserView
+    h1.Banner Howdy, #{object.name}!
+    div.Message
+      div.Title
+        h3 Learning more about #{object.rotation_period}
+        h1 Teammate Profile
+      pre.Details=JSON.stringify(object, null, 2)
+
+      div.Message.Details
+        
+        div(class="container")
+          canvas(id="chartPic")
+
+    div.NavButtons
+      a(href="/")
+        div.NavButton Back
