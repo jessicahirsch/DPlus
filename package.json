@@ -20,8 +20,8 @@
     "express": "^4.17.1",
     "http-party": "^2.0.0",
     "httpie": "^1.1.2",
-    "node-fetch": "^2.6.0",
-    "pug": "^3.0.3",
+    "node-fetch": "^2.6.7",
+    "pug": "^2.0.4",
     "request": "^2.88.0",
     "server": "^1.0.39"
   }
